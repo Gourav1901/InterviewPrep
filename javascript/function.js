@@ -42,3 +42,6 @@ b();  // output Hello World
 //A function without name is called anonymouse function
 
 // anonymouse function dont have its own identity
+//A function without name is called anonymouse function
+
+// anonymouse function dont have its own identity

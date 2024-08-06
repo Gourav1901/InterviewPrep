@@ -51,4 +51,4 @@ Local Storage only stores strings. To store objects or arrays, you need to conve
 
 How can you handle the absence of Local Storage in a browser?
 
-You can check for support using if (typeof(Storage) !== "undefined"), and provide fallback mechanisms like cookies if Local Storage is not supported.
+You can check for support using if (typeof(Storage) !== "undefined"), and provide fallback mechanisms like cookies if Local Storage is not supported...

@@ -41,7 +41,7 @@ Typically, 5-10 MB per domain.
 
 What are the security concerns associated with Local Storage?
 
-Data stored in Local Storage is accessible via JavaScript, so it is vulnerable to XSS (Cross-Site Scripting) attacks. It should not be used to store sensitive information like passwords.
+7  Data stored in Local Storage is accessible via JavaScript, so it is vulnerable to XSS (Cross-Site Scripting) attacks. It should not be used to store sensitive information like passwords.
 
 
 Can you store objects or arrays in Local Storage?
@@ -51,4 +51,4 @@ Local Storage only stores strings. To store objects or arrays, you need to conve
 
 How can you handle the absence of Local Storage in a browser?
 
-You can check for support using if (typeof(Storage) !== "undefined"), and provide fallback mechanisms like cookies if Local Storage is not supported...
+You can check for support using if (typeof(Storage) !== "undefined"), and provide fallback mechanisms like cookies if Local Storage is not supported.
